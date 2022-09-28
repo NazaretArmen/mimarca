@@ -1,0 +1,84 @@
+header{
+    display:flex;
+    justify-content: space-around;
+    background-color: bisque;
+    border: solid;
+    border-color: chocolate;
+    border-radius: 5px;
+    color:chocolate;
+}
+#titulo{
+    text-align: center;
+    align-self: center
+}
+h1 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 52px; font-weight: normal; line-height: 48px; margin: 0; }
+h2 { color: chocolate3; font-family: 'Trocchi', serif; font-size: 38px; font-weight: normal; line-height: 48px; margin: 0; }
+
+*{
+    box-sizing: border-box;
+  }
+body{
+    background-color: antiquewhite;
+}
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center;
+    padding:2%;
+    
+
+    flex-direction: row;
+}
+#central{
+    margin-right:5%;
+    font-size:medium;
+    flex-grow:6;
+    margin-bottom: 2%;
+
+    
+}
+img {
+    margin:2%;
+    border: solid;
+    border-color: chocolate;
+    border-radius: 5px;
+    /*align-self: center;*/
+  }
+#nazaret{
+    padding:2%;
+}
+#secundaria{
+    
+    
+    flex-grow:4
+
+}
+footer{
+    /*position: fixed;*/
+    width:100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: bisque;
+    border: solid;
+    border-color: chocolate;
+    border-radius: 5px;
+}
+.redes{
+    width:50px;
+    height: 50px;
+    border: solid;
+    border-color: chocolate;
+    border-radius: 5px;
+}
+.articulos{
+    border-style: dashed;
+    /*border-radius: 5px;*/
+    border-color: chocolate;
+    padding:1%;
+    overflow: auto;
+    border-bottom-right-radius: 50px 20px;
+    
+}
